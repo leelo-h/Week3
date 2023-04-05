@@ -10,14 +10,20 @@
 }
 body {
 
-    background-color: bisque;
+    background-color: rgb(171, 138, 145)
 }
 .heading {
     background-color: lightcyan;
     text-align: center;
     font-size: 1rem;
     font-family: 'Pacifico', cursive;
-
+    position: relative;
+    top: -300px;
+    animation: heading 5s ease-in-out forwards;
+    
+}
+@keyframes heading {
+    100%{top: 0;}
 }
 .main {
     width: 300px;
@@ -34,7 +40,14 @@ body {
     margin: auto;
 }
 #red {
-    border: 0.5rem solid pink;
+    border: 2rem solid pink;
+    border-radius: 50%;
+    animation: pink 5s ease-in-out;
+    opacity: 0;
+    
+}
+@keyframes pink {
+    100% {opacity: 1;}
 }
 #list{
     font-style: normal;
@@ -47,14 +60,21 @@ body {
     margin: 3rem auto;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 500;'
-    font-display: ;
+    font-weight: 700;'
+    
 
 
      
 }
 .footer {
-    background-color: bisque;
+    background-color: yellow;
      width: max-content;
      font-family: 'Pacifico', cursive;
+     animation: footer 4s ease-in-out forwards;
+     animation-iteration-count: infinite;
+     transform: rotate(30deg);
+}
+@keyframes footer {
+    50% {transform: rotate(150deg);}
+    
 }
