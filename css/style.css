@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+
+    background-color: bisque;
+}
+.heading {
+    background-color: lightcyan;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Pacifico', cursive;
+
+}
+.main {
+    width: 300px;
+    height: 300px;
+    border: 1.5px solid lightpink;
+    margin: 2rem auto;
+    font-family: 'Pacifico', cursive;
+}
+
+.main  >div {
+    width: 200px;
+    height: 30px;
+    border-radius: 50%;
+    margin: auto;
+}
+#red {
+    border: 0.5rem solid pink;
+}
+#list{
+    font-style: normal;
+}
+.instructions {
+    width: 400px;
+    height: 200px; 
+    border: 2px solid salmon; 
+    padding: 30px; 
+    margin: 3rem auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;'
+    font-display: ;
+
+
+     
+}
+.footer {
+    background-color: bisque;
+     width: max-content;
+     font-family: 'Pacifico', cursive;
+}
